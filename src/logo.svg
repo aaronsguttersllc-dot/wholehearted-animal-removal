@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 220" role="img" aria-label="Aarons Elite Gutters logo">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1">
+      <stop offset="0%" stop-color="#101821"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="880" height="220" rx="18" fill="url(#bg)"/>
+
+  <g transform="translate(20 20)">
+    <g transform="translate(0 20)">
+      <path d="M92 40 L148 0 L200 40 L200 110 L92 110 Z" fill="#dfe5e8" opacity="0.96"/>
+      <path d="M118 110 L118 65 L148 40 L178 65 L178 110 Z" fill="#111827" opacity="0.92"/>
+      <path d="M148 40 L148 15 L180 15 L180 40" fill="none" stroke="#dfe5e8" stroke-width="6" stroke-linecap="round"/>
+
+      <path d="M60 108 L92 108 L92 125 L70 125 L70 48 L38 48 L38 125 L12 125 L12 108 L34 108" fill="#dfe5e8" opacity="0.94"/>
+
+      <g transform="translate(98 38)">
+        <path d="M40 82 L85 82 L101 108 L25 108 Z" fill="#dfe5e8"/>
+        <path d="M40 22 L56 22 L66 36 L30 36 Z" fill="#dfe5e8"/>
+        <path d="M54 36 L98 36 L108 48 L135 48 L135 75 L115 75 L115 60 L54 60 Z" fill="#dfe5e8"/>
+        <path d="M20 80 L18 42 L52 18 L90 18 L121 44 L121 80 Z" fill="#dfe5e8" opacity="0.96"/>
+        <path d="M32 100 L130 100 L136 112 L26 112 Z" fill="#dfe5e8"/>
+      </g>
+
+      <g transform="translate(120 46)">
+        <circle cx="42" cy="36" r="27" fill="#dfe5e8"/>
+        <path d="M26 44 L46 18 L93 18 L93 70 L46 70 Z" fill="#dfe5e8"/>
+        <path d="M58 62 L95 62 L83 76 L70 76 Z" fill="#dfe5e8"/>
+        <path d="M60 38 L88 38 L104 54 L104 84 L60 84 Z" fill="#111827"/>
+        <circle cx="70" cy="50" r="16" fill="#111827"/>
+        <path d="M35 64 L67 64 L82 78 L50 78 Z" fill="#dfe5e8"/>
+        <path d="M34 78 L64 78 L78 96 L49 96 Z" fill="#dfe5e8"/>
+        <path d="M96 50 L112 50 L124 62 L116 88 L95 88 Z" fill="#dfe5e8"/>
+      </g>
+    </g>
+  </g>
+
+  <g transform="translate(260 28)">
+    <text x="0" y="90" font-family="Arial, Helvetica, sans-serif" font-size="88" font-weight="700" letter-spacing="2" fill="#dfe5e8">AARONS</text>
+    <text x="8" y="150" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="700" letter-spacing="7" fill="#dfe5e8">ELITE</text>
+    <text x="268" y="150" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="700" letter-spacing="6" fill="#dfe5e8">GUTTERS</text>
+  </g>
+</svg>
