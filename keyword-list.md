@@ -24,15 +24,15 @@ Built from 2 real Semrush exports (2026-08-31): seed "Dead Animal Removal" (4,28
 
 | Priority | Keyword | Volume | KD | Relevance | Notes |
 |---|---|---|---|---|---|
-| 1 | who picks up dead animals | 390 | 8 | 60 | Great top-of-funnel "who do I even call" post |
-| 2 | who to call for dead animal pick up | 320 | 8 | 60 | Pairs with #1, could be one post |
+| 1 | who picks up dead animals | 390 | 8 | 60 | **Published (2026-09-01)** as `src/blog/who-picks-up-dead-animals.html` — real decision-tree overview (county roads, pets, livestock, wildlife), sourced on where county/animal control programs actually stop (public right-of-way, not private property). Also covers #2. |
+| 2 | who to call for dead animal pick up | 320 | 8 | 60 | Covered by the same post as #1 |
 | 3 | why is it illegal to bury a horse | 90 | 5 | 41 | Strong differentiator post — real regulatory angle, positions professional removal as the compliant option |
 | 4 | how to get rid of a dead horse | 70 | 6 | 55 | Low difficulty, honest "your real options" post |
 | 5 | how do you dispose of a dead horse | 70 | 10 | 54 | Close variant of #4 |
-| 6 | how much does it cost to bury a horse | 40 | 2 | 56 | Real cost-comparison angle (burial vs. professional removal) |
-| 7 | what do you do with a dead horse | 70 | 18 | 52 | Broader "here are your real options" framing |
-| 8 | how to dispose of a dead dog | 390 | 19 | 52 | Household-pet-side equivalent |
-| 9 | how do you dispose of a dead cat | 320 | 18 | 51 | |
+| 6 | how much does it cost to bury a horse | 40 | 2 | 56 | **Published (2026-09-01)** as `src/blog/cost-to-bury-a-horse.html` — real excavation/equipment rental cost data (DOZR, BigRentz, Tacoma-area contractor rates), cost comparison against cremation/removal/rendering, and real groundwater/pathogen-risk research most cost guides skip. |
+| 7 | what do you do with a dead horse | 70 | 18 | 52 | Broader framing — already touched by the published euthanasia post and the new cost post |
+| 8 | how to dispose of a dead dog | 390 | 19 | 52 | **Published (2026-09-01)** as `src/blog/dispose-of-a-dead-dog-or-cat.html` — household-pet-side equivalent, correctly cites WAC 246-203-121 (the general pet-disposal rule) rather than the livestock-only WAC 16-25-025 used in the horse post. Also covers #9. |
+| 9 | how do you dispose of a dead cat | 320 | 18 | 51 | Covered by the same post as #8 |
 | 10 | how much does it cost to cremate a horse / how much to cremate a horse | 260 / 170 | 6 / 1 | 40 / 42 | Real, very low difficulty. Aaron doesn't do or coordinate cremation — refers those requests to Pet Land — so this post should be honest about that: what cremation runs, and what removal/transport actually costs instead, with a genuine referral rather than pretending it's not an option |
 | 11 | fallen animal | 1,600 | 25 | 44 | **Published (2026-08-31)** as `src/blog/what-happens-after-a-horse-is-euthanized.html` — real WA regulation (WAC 16-25-025, verified directly against the state legislature site) plus the euthanasia/rendering differentiator fact. Also touches keywords #7 ("what do you do with a dead horse") and #4/5 ("how to/do you dispose of a dead horse"). |
 | 12 | deceased horse | 880 | 11 | 59 | High volume, low difficulty, matches Aaron's own real "deceased animal" language exactly |
