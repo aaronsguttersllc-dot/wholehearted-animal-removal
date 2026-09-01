@@ -34,7 +34,7 @@ Built from 2 real Semrush exports (2026-08-31): seed "Dead Animal Removal" (4,28
 | 8 | how to dispose of a dead dog | 390 | 19 | 52 | Household-pet-side equivalent |
 | 9 | how do you dispose of a dead cat | 320 | 18 | 51 | |
 | 10 | how much does it cost to cremate a horse / how much to cremate a horse | 260 / 170 | 6 / 1 | 40 / 42 | Real, very low difficulty. Aaron doesn't do or coordinate cremation — refers those requests to Pet Land — so this post should be honest about that: what cremation runs, and what removal/transport actually costs instead, with a genuine referral rather than pretending it's not an option |
-| 11 | fallen animal | 1,600 | 25 | 44 | Real agricultural-industry term ("fallen stock") for on-farm livestock death — worth a post specifically using this real term, high volume for the difficulty |
+| 11 | fallen animal | 1,600 | 25 | 44 | **Published (2026-08-31)** as `src/blog/what-happens-after-a-horse-is-euthanized.html` — real WA regulation (WAC 16-25-025, verified directly against the state legislature site) plus the euthanasia/rendering differentiator fact. Also touches keywords #7 ("what do you do with a dead horse") and #4/5 ("how to/do you dispose of a dead horse"). |
 | 12 | deceased horse | 880 | 11 | 59 | High volume, low difficulty, matches Aaron's own real "deceased animal" language exactly |
 | 13 | dead animals / dead animal | 2,900 / 2,400 | 29 / 34 | 58 / 51 | Broad, high volume — good pillar-post candidates, but intent is mixed (not everyone searching this needs a removal service) |
 

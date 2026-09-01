@@ -11,29 +11,26 @@ Last updated: 2026-08-31. This file exists so work can pick back up exactly wher
 - Netlify site (renamed from its random default): **https://wholehearted-animal-removal.netlify.app** — this is the *test* link, not the real domain yet
 - The Quick Quote form is wired to Netlify Forms (`data-netlify="true"`, honeypot spam field) and **confirmed working end-to-end**: form detection is enabled, test submissions succeed (HTTP 200), and email notifications are confirmed arriving correctly under the renamed site name.
 
-## We are mid-way through the domain cutover — this is the critical next step
+## Domain cutover — DNS changes are DONE, just waiting on propagation/SSL
 
-**Goal:** point `wholeheartedanimalremoval.com` at the new Netlify site instead of the current Squarespace site, without breaking email.
+**Goal:** point `wholeheartedanimalremoval.com` at the new Netlify site instead of the current Squarespace site, without breaking email. **The actual DNS edit is complete** — what's left is just waiting for it to fully take effect.
 
-**What we already know (confirmed via real screenshots from Aaron's Squarespace DNS panel):**
-- Domain registrar: **Squarespace Domains** (DNS changes happen in Squarespace's own dashboard, not a separate registrar)
-- Email is on **Google Workspace**, NOT Squarespace — confirmed via real DNS records:
-  - MX record: `@` → `smtp.google.com` (priority 1)
-  - TXT: `google-site-verification=...`
-  - TXT: `v=spf1 include:_spf.google.com ~all`
-  - TXT: `google._domainkey` (DKIM)
-  - **→ These four records must NEVER be touched during the cutover.** Email is completely independent of the website hosting.
-- The records that currently point the *website* to Squarespace (these are the ones that will change):
-  - 4× A records, `@` → `198.185.159.144`, `198.185.159.145`, `198.49.23.144`, `198.49.23.145`
-  - CNAME: `www` → `ext-sq.squarespace.com`
-  - An HTTPS record (`@`, alpn/ipv4hint data) — Squarespace-specific, likely gets removed/replaced
-  - A separate "Squarespace Domain Connect" CNAME (`_domainconnect` → `_domainconnect.domains.squarespace.com`) — harmless, unrelated to serving the site, safe to leave alone either way
+**Email — confirmed untouched and safe** (Google Workspace, not Squarespace):
+- MX record: `@` → `smtp.google.com` (priority 1) — verified still present
+- 3 TXT records (site-verification, SPF, DKIM) — verified still present
 
-**Next concrete step (not yet done):** In Netlify, go to Site configuration → Domain management → Add a domain → enter `wholeheartedanimalremoval.com` → choose to **keep the current DNS provider** (do NOT switch to "Netlify DNS" / do NOT delegate nameservers — that would touch far more than necessary and adds risk). Netlify will then display the *exact current* A record / CNAME values it wants used. **Get a screenshot of that Netlify screen before doing anything in Squarespace** — don't reuse old memorized IPs, confirm live with Netlify at the time of the actual switch.
+**What was actually changed in Squarespace's DNS panel:**
+- Deleted the whole "Squarespace Defaults" block in one action (this covered the 4 old A records, the old `www` CNAME to `ext-sq.squarespace.com`, and the Squarespace HTTPS record)
+- Added under "Custom records": `A` record, `@` → `75.2.60.5` (confirmed against Netlify's live dashboard, not memorized)
+- Added under "Custom records": `CNAME` record, `www` → `wholehearted-animal-removal.netlify.app` (caught and fixed a typo here — first attempt had a hyphen instead of a period before "netlify.app")
+- Domain added in Netlify (Site configuration → Domain management), set to use external DNS, not Netlify DNS/nameservers
 
-**Once we have Netlify's exact values, the actual cutover is:** in Squarespace's DNS panel, replace the 4 Squarespace A records with Netlify's value(s), and repoint the `www` CNAME from `ext-sq.squarespace.com` to the Netlify value — while leaving the MX record and all 3 TXT records completely untouched. Test thoroughly right after (site loads, form works) before considering it done. DNS changes can take anywhere from a few minutes to a few hours to fully propagate everywhere, so don't panic if it's not instant.
+**Status as of end of 2026-08-31 session:**
+- ✅ Root domain (`wholeheartedanimalremoval.com`) — DNS confirmed resolving to `75.2.60.5`, and `http://` (non-secure) already serves the correct new site
+- ⏳ `https://` (secure/padlock version) — was failing with a certificate name mismatch, because Netlify hadn't finished issuing the SSL certificate yet. This is automatic on Netlify's end and just needs time. **Check this first when resuming** — try `https://wholeheartedanimalremoval.com` and see if it loads clean now.
+- ⏳ `www.wholeheartedanimalremoval.com` — was still resolving to the old Squarespace value as of last check, but that record had a 4-hour cache time from before the fix, so it just needs more time to catch up everywhere. Re-check this too.
 
-**After the domain is confirmed working on the new site:** decide what to do with the Squarespace subscription (cancel/downgrade) — but only after confirming the switch is fully live and stable, not before.
+**Once both of those show fully resolved/working (site loads clean over `https://`, both with and without `www`):** decide what to do with the Squarespace subscription (cancel/downgrade) — only after confirming the switch is fully live and stable, not before.
 
 ## Other open items, not urgent
 
@@ -53,4 +50,8 @@ Last updated: 2026-08-31. This file exists so work can pick back up exactly wher
 - Real service area: Pierce, King, Thurston, Lewis Counties plus Shelton/Elma/Castle Rock — full town list on the homepage
 - Real stories: driven as far as Forks, WA; coordinated necropsy transport to University of Oregon
 - Only ~2 real local competitors (one ~30 min away near Graham, WA; one in Eastern Washington) — informs a higher keyword-difficulty tolerance than typical
-- A rendering plant will not accept a euthanized animal (real differentiator fact, logged in `keyword-list.md` as a strong blog angle, not yet written)
+- A rendering plant will not accept a euthanized animal — this is now written up in the first published blog post (see below)
+
+## First blog post — published 2026-08-31
+
+`src/blog/what-happens-after-a-horse-is-euthanized.html` — targets "fallen animal" (1,600/mo) plus several related dead-horse-disposal keywords. Real, verified content: Washington's actual burial regulation (WAC 16-25-025, confirmed directly against the state legislature's own site — not just a search summary), and the euthanasia/rendering-plant-refusal fact with real sourcing (Iowa State University Extension on pentobarbital, plus the FDA zero-tolerance/pet-food-residue history). Live on the Netlify test URL now; will be live on the real domain once the domain cutover (above) finishes. Marked as published in `keyword-list.md`.
