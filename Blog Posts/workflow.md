@@ -1,10 +1,10 @@
 # Workflow / Handoff — Wholehearted Animal Removal
 
-Last updated: 2026-09-01. This file exists so work can pick back up exactly where it left off if a session ends unexpectedly (power loss, etc.) — read this first before doing anything else on this project.
+Last updated: 2026-09-03. This file exists so work can pick back up exactly where it left off if a session ends unexpectedly (power loss, etc.) — read this first before doing anything else on this project.
 
 ## Where things stand right now
 
-**The site itself** is built and content-complete: Home (hero, trust points, what-I-handle tiles, why-families-trust-me + real "Our Story" with your dad's real photo, where-I-serve with real county/town lists, what-to-expect, quick-quote form, contact), plus a Blog index page with 4 published posts (see below).
+**The site itself** is built and content-complete: Home (hero, trust points, what-I-handle tiles, why-families-trust-me + real "Our Story" with your dad's real photo, where-I-serve with real county/town lists, what-to-expect, quick-quote form, contact), plus a Blog index page with 6 published posts (see below).
 
 **Hosting is fully live on the real domain — cutover is DONE, not just planned:**
 - GitHub repo: `https://github.com/aaronsguttersllc-dot/wholehearted-animal-removal.git`
@@ -38,11 +38,13 @@ Last updated: 2026-09-01. This file exists so work can pick back up exactly wher
 - A rendering plant will not accept a euthanized animal — written up in the first published blog post (see below)
 - **Important regulatory distinction, confirmed 2026-09-01, don't mix these up in future content:** WAC 16-25-025 (5-acre minimum, 300 ft setbacks, 1,000 lb cap) is a **livestock-only** rule — it applies to horses/cattle, not pets. Household pets (dogs, cats) are governed by the far more permissive WAC 246-203-121 instead (3 ft cover, 100 ft water setback, 72-hour rule, no acreage minimum). Any future pet-focused content should cite 246-203-121, not 16-25-025.
 
-## Blog posts — 4 published
+## Blog posts — 6 published
 
 1. **`src/blog/what-happens-after-a-horse-is-euthanized.html`** (2026-08-31) — targets "fallen animal" (1,600/mo). WAC 16-25-025 burial rules, plus the euthanasia/rendering-plant-refusal fact (Iowa State Extension, FDA pentobarbital residue history).
 2. **`src/blog/who-picks-up-dead-animals.html`** (2026-09-01) — targets "who picks up dead animals" (390/mo). Real decision-tree: county roads (WSDOT/public works), pets at home (vets don't do home pickup; King County/Lewis County disposal options), livestock (animal control's real scope is dangerous/loose animals, not carcass removal), and wildlife (WDFW).
 3. **`src/blog/cost-to-bury-a-horse.html`** (2026-09-01) — targets "how much does it cost to bury a horse" (40/mo, KD 2). Real excavation/equipment rental cost ranges (DOZR, BigRentz, Tacoma-area contractor rates), cost comparison against cremation/rendering/professional removal, and the real groundwater/pathogen-contamination research (ScienceDirect, WSU Extension) that most cost-guide content skips.
 4. **`src/blog/dispose-of-a-dead-dog-or-cat.html`** (2026-09-01) — targets "how to dispose of a dead dog" / "how do you dispose of a dead cat" (390/320 per month). Correctly uses WAC 246-203-121 (not the livestock-only 16-25-025), real cremation cost ranges, and real King County/Lewis County disposal options.
+5. **`src/blog/dead-deer-removal.html`** (2026-09-03) — targets "dead deer removal" / "dead deer removal near me" (480/390 per month). Wildlife-specific angle distinct from the other 5 posts: WAC 220-400-040 (the little-known requirement to call WDFW or WSP before removing wildlife found dead on your own property), WAC 246-203-121 disposal timeline/burial rules as applied to deer specifically, WSDOT roadkill carcass-removal statistics, roadkill salvage permit basics, and real WA CWD status (confirmed 2024, Spokane/Pend Oreille counties — Eastern WA, outside the service area, stated honestly).
+6. **`src/blog/cost-to-cremate-a-horse.html`** (2026-09-03) — targets "how much does it cost to cremate a horse" / "how much to cremate a horse" (260/170 per month, near-zero KD). Real weight-based pricing from a verified Washington provider (PALSNW, Washougal — $1.75–$2.25/lb), private vs. communal cost breakdown, and honest comparison to burial/rendering/removal. Deliberately does not name "Pet Land" as a referral — that business's exact name/location is still unverified (see open item #2 below) — so the post stays factual without an unconfirmed claim.
 
-All 4 cross-link to each other where relevant, added to `blog.html` and `sitemap.xml`, and marked Published in `keyword-list.md`.
+All 6 cross-link to each other where relevant, added to `blog.html` and `sitemap.xml`, and marked Published in `keyword-list.md`.
