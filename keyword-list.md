@@ -27,7 +27,7 @@ Built from 2 real Semrush exports (2026-08-31): seed "Dead Animal Removal" (4,28
 |---|---|---|---|---|---|
 | 1 | who picks up dead animals | 390 | 8 | 60 | **Published (2026-09-01)** as `src/blog/who-picks-up-dead-animals.html` — real decision-tree overview (county roads, pets, livestock, wildlife), sourced on where county/animal control programs actually stop (public right-of-way, not private property). Also covers #2. |
 | 2 | who to call for dead animal pick up | 320 | 8 | 60 | Covered by the same post as #1 |
-| 3 | why is it illegal to bury a horse | 90 | 5 | 41 | Strong differentiator post — real regulatory angle, positions professional removal as the compliant option |
+| 3 | why is it illegal to bury a horse | 90 | 5 | 41 | **Published (2026-09-04)** as `src/blog/why-is-it-illegal-to-bury-a-horse.html` — the definitive legal deep-dive: full WAC 16-25-025 requirements (including the annual 10%/1-acre land-use cap and floodplain exclusion, not previously published), the real "why" (RCW 16.36.102's presumption that an unexplained livestock death is disease until proven otherwise), and the real penalty for violating it (RCW 16.36.110, gross misdemeanor, each day a separate violation) — none of which the earlier euthanasia or cost-to-bury posts covered in this depth. |
 | 4 | how to get rid of a dead horse | 70 | 6 | 55 | Low difficulty, honest "your real options" post |
 | 5 | how do you dispose of a dead horse | 70 | 10 | 54 | Close variant of #4 |
 | 6 | how much does it cost to bury a horse | 40 | 2 | 56 | **Published (2026-09-01)** as `src/blog/cost-to-bury-a-horse.html` — real excavation/equipment rental cost data (DOZR, BigRentz, Tacoma-area contractor rates), cost comparison against cremation/removal/rendering, and real groundwater/pathogen-risk research most cost guides skip. |
@@ -38,6 +38,7 @@ Built from 2 real Semrush exports (2026-08-31): seed "Dead Animal Removal" (4,28
 | 11 | fallen animal | 1,600 | 25 | 44 | **Published (2026-08-31)** as `src/blog/what-happens-after-a-horse-is-euthanized.html` — real WA regulation (WAC 16-25-025, verified directly against the state legislature site) plus the euthanasia/rendering differentiator fact. Also touches keywords #7 ("what do you do with a dead horse") and #4/5 ("how to/do you dispose of a dead horse"). |
 | 12 | deceased horse | 880 | 11 | 59 | High volume, low difficulty, matches Aaron's own real "deceased animal" language exactly |
 | 13 | dead animals / dead animal | 2,900 / 2,400 | 29 / 34 | 58 / 51 | Broad, high volume — good pillar-post candidates, but intent is mixed (not everyone searching this needs a removal service) |
+| 14 | dead livestock removal near me / dead livestock removal / dead cow removal near me | 140 / 40 / 40 | 1 / 11 / 15 | 53 / 52 / 48 | **Published (2026-09-04)** as `src/blog/dead-livestock-removal.html` — real gap-filler: none of the first 6 posts covered cattle, llamas, goats, or sheep specifically, even though they're real, explicit parts of Aaron's actual service scope. Confirms via RCW 16.36.005 that WAC 16-25-025 applies to all of them, not just horses, and covers WSDA-recognized alternatives (composting, incineration, landfill, natural rangeland decomposition) that no earlier post mentioned. |
 
 ## Excluded (confirmed 2026-08-31)
 
