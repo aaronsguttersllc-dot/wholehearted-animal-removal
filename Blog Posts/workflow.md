@@ -1,10 +1,10 @@
 # Workflow / Handoff — Wholehearted Animal Removal
 
-Last updated: 2026-09-04. This file exists so work can pick back up exactly where it left off if a session ends unexpectedly (power loss, etc.) — read this first before doing anything else on this project.
+Last updated: 2026-09-06. This file exists so work can pick back up exactly where it left off if a session ends unexpectedly (power loss, etc.) — read this first before doing anything else on this project.
 
 ## Where things stand right now
 
-**The site itself** is built and content-complete: Home (hero, trust points, what-I-handle tiles, why-families-trust-me + real "Our Story" with your dad's real photo, where-I-serve with real county/town lists, what-to-expect, quick-quote form, contact), plus a Blog index page with 8 published posts (see below).
+**The site itself** is built and content-complete: Home (hero, trust points, what-I-handle tiles, why-families-trust-me + real "Our Story" with your dad's real photo, where-I-serve with real county/town lists, what-to-expect, quick-quote form, contact), plus a Blog index page with 11 published posts (see below).
 
 **Hosting is fully live on the real domain — cutover is DONE, not just planned:**
 - GitHub repo: `https://github.com/aaronsguttersllc-dot/wholehearted-animal-removal.git`
@@ -38,7 +38,7 @@ Last updated: 2026-09-04. This file exists so work can pick back up exactly wher
 - A rendering plant will not accept a euthanized animal — written up in the first published blog post (see below)
 - **Important regulatory distinction, confirmed 2026-09-01, don't mix these up in future content:** WAC 16-25-025 (5-acre minimum, 300 ft setbacks, 1,000 lb cap) is a **livestock-only** rule — it applies to horses/cattle, not pets. Household pets (dogs, cats) are governed by the far more permissive WAC 246-203-121 instead (3 ft cover, 100 ft water setback, 72-hour rule, no acreage minimum). Any future pet-focused content should cite 246-203-121, not 16-25-025.
 
-## Blog posts — 8 published
+## Blog posts — 11 published
 
 1. **`src/blog/what-happens-after-a-horse-is-euthanized.html`** (2026-08-31) — targets "fallen animal" (1,600/mo). WAC 16-25-025 burial rules, plus the euthanasia/rendering-plant-refusal fact (Iowa State Extension, FDA pentobarbital residue history).
 2. **`src/blog/who-picks-up-dead-animals.html`** (2026-09-01) — targets "who picks up dead animals" (390/mo). Real decision-tree: county roads (WSDOT/public works), pets at home (vets don't do home pickup; King County/Lewis County disposal options), livestock (animal control's real scope is dangerous/loose animals, not carcass removal), and wildlife (WDFW).
@@ -49,4 +49,8 @@ Last updated: 2026-09-04. This file exists so work can pick back up exactly wher
 7. **`src/blog/dead-livestock-removal.html`** (2026-09-04) — targets "dead livestock removal near me" / "dead livestock removal" / "dead cow removal near me" (140/40/40 per month). Real gap-filler: the first 6 posts were all horse/dog/cat/deer-specific, even though cattle, llamas, goats, and sheep are real, explicit parts of Aaron's actual service scope. Confirms via RCW 16.36.005 that WAC 16-25-025 applies to all livestock, not just horses, and covers WSDA-recognized disposal alternatives (composting, incineration, landfill, natural rangeland decomposition) that no earlier post mentioned.
 8. **`src/blog/why-is-it-illegal-to-bury-a-horse.html`** (2026-09-04) — targets "why is it illegal to bury a horse" (90/mo, KD5). The definitive legal deep-dive on WAC 16-25-025, going further than the earlier euthanasia and cost-to-bury posts: the full requirement list including the annual 10%/1-acre land-use cap and floodplain exclusion (not previously published), the real "why" (RCW 16.36.102's legal presumption that an unexplained livestock death was caused by disease), and the real penalty for violating it (RCW 16.36.110 — gross misdemeanor, each day a separate violation).
 
-All 8 cross-link to each other where relevant, added to `blog.html` and `sitemap.xml`, and marked Published in `keyword-list.md`.
+9. **`src/blog/deceased-horse-what-to-do.html`** (2026-09-06) — targets "deceased horse" (880/mo, KD11). A hub post for the "found my horse dead unexpectedly" scenario, distinct from the euthanasia-specific post — confirming death/calling a vet for a necropsy, the real WAC 16-70-020 reportable-disease angle (vets carry the legal reporting duty for an "unexplained increase in dead or diseased animals"), common causes of sudden death, and links out to every other horse-disposal post on the site.
+10. **`src/blog/dead-animal-smell-in-house.html`** (2026-09-06) — targets "dead animal smell in house" / "how long does a dead animal smell" (480/210 per month, pulled fresh via a live Semrush lookup, not the original export). Wildlife-relevant angle (something died in a wall/attic/crawlspace) — real decomposition chemistry (putrescine/cadaverine), why air fresheners only mask the smell, and how a carcass actually gets located in a hard-to-reach space. Deliberately kept rodents out of the focus, consistent with Aaron's real scope.
+11. **`src/blog/dead-animal-removal-cost.html`** (2026-09-06) — targets "dead animal removal cost" (70/mo, pulled fresh via Semrush). Explains honestly why removal pricing isn't published anywhere, including on this site, then synthesizes the already-vetted burial and cremation cost numbers from posts #3, #6, and #4 into one cost-expectations page.
+
+All 11 cross-link to each other where relevant, added to `blog.html` and `sitemap.xml`, and marked Published in `keyword-list.md`.
