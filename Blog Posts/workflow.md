@@ -4,7 +4,7 @@ Last updated: 2026-09-06. This file exists so work can pick back up exactly wher
 
 ## Where things stand right now
 
-**The site itself** is built and content-complete: Home (hero, trust points, what-I-handle tiles, why-families-trust-me + real "Our Story" with your dad's real photo, where-I-serve with real county/town lists, what-to-expect, quick-quote form, contact), plus a Blog index page with 14 published posts (see below).
+**The site itself** is built and content-complete: Home (hero, trust points, what-I-handle tiles, why-families-trust-me + real "Our Story" with your dad's real photo, where-I-serve with real county/town lists, what-to-expect, quick-quote form, contact), plus a Blog index page with 17 published posts (see below).
 
 **Hosting is fully live on the real domain — cutover is DONE, not just planned:**
 - GitHub repo: `https://github.com/aaronsguttersllc-dot/wholehearted-animal-removal.git`
@@ -38,7 +38,7 @@ Last updated: 2026-09-06. This file exists so work can pick back up exactly wher
 - A rendering plant will not accept a euthanized animal — written up in the first published blog post (see below)
 - **Important regulatory distinction, confirmed 2026-09-01, don't mix these up in future content:** WAC 16-25-025 (5-acre minimum, 300 ft setbacks, 1,000 lb cap) is a **livestock-only** rule — it applies to horses/cattle, not pets. Household pets (dogs, cats) are governed by the far more permissive WAC 246-203-121 instead (3 ft cover, 100 ft water setback, 72-hour rule, no acreage minimum). Any future pet-focused content should cite 246-203-121, not 16-25-025.
 
-## Blog posts — 14 published
+## Blog posts — 17 published
 
 1. **`src/blog/what-happens-after-a-horse-is-euthanized.html`** (2026-08-31) — targets "fallen animal" (1,600/mo). WAC 16-25-025 burial rules, plus the euthanasia/rendering-plant-refusal fact (Iowa State Extension, FDA pentobarbital residue history).
 2. **`src/blog/who-picks-up-dead-animals.html`** (2026-09-01) — targets "who picks up dead animals" (390/mo). Real decision-tree: county roads (WSDOT/public works), pets at home (vets don't do home pickup; King County/Lewis County disposal options), livestock (animal control's real scope is dangerous/loose animals, not carcass removal), and wildlife (WDFW).
@@ -57,4 +57,8 @@ Last updated: 2026-09-06. This file exists so work can pick back up exactly wher
 13. **`src/blog/dead-animal-under-house-deck-porch.html`** (2026-09-06) — targets "dead animal under house" (70/mo, pulled fresh via Semrush). Companion to post #10, but the crawlspace/under-deck/under-porch scenario specifically — real WDFW sourcing on opossums/raccoons/skunks denning under structures, and why a cornered skunk in a confined space is a real reason to call rather than DIY.
 14. **`src/blog/what-is-a-necropsy.html`** (2026-09-06) — targets "what is a necropsy" (880/mo, pulled fresh via Semrush). Deepens the necropsy mention already in post #9 into its own page. Real WADDL (WSU's in-state diagnostic lab) equine necropsy pricing ($250 + $10 accession fee), the field-vs-lab necropsy distinction, and honest logistics guidance (call WADDL/your vet rather than guessing at transport details).
 
-All 14 cross-link to each other where relevant, added to `blog.html` and `sitemap.xml`, and marked Published in `keyword-list.md`.
+15. **`src/blog/dead-animal-rabies-signs.html`** (2026-09-08) — targets "how to tell if an animal has rabies" (880/mo, KD70 — kept despite the higher difficulty as genuine trust/safety content). Real WA DOH data: bats are the state's only confirmed rabies reservoir, 18 confirmed cases statewide through Aug. 2026 (all bats), none in Pierce or Thurston counties — honest, low-alarm regional framing. Honest core point: you cannot confirm rabies by looking at a carcass; lab testing of brain tissue is the only reliable method.
+16. **`src/blog/dead-animal-in-pool.html`** (2026-09-08) — targets "dead animal in pool" (70/mo, KD2, pulled fresh via Semrush). Real health content: raccoon roundworm eggs survive normal pool chlorine/salt entirely (only heat destroys them), and the real CDC shock-treatment protocol distinct from routine chlorine levels.
+17. **`src/blog/dead-animal-in-chimney.html`** (2026-09-08) — targets "dead animal in chimney" / "dead bird in chimney" (90/90 per month, KD 0/5, essentially free to rank for). Real CSIA-sourced fire/carbon-monoxide hazard from a blocked flue — a genuine safety issue, not just an odor problem. Cross-linked with `dead-bird-in-yard.html` and `dead-animal-smell-in-house.html`.
+
+All 17 cross-link to each other where relevant, added to `blog.html` and `sitemap.xml`, and marked Published in `keyword-list.md`.
