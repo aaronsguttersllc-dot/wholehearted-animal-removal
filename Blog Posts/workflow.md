@@ -1,10 +1,10 @@
 # Workflow / Handoff — Wholehearted Animal Removal
 
-Last updated: 2026-09-06. This file exists so work can pick back up exactly where it left off if a session ends unexpectedly (power loss, etc.) — read this first before doing anything else on this project.
+Last updated: 2026-09-10. This file exists so work can pick back up exactly where it left off if a session ends unexpectedly (power loss, etc.) — read this first before doing anything else on this project.
 
 ## Where things stand right now
 
-**The site itself** is built and content-complete: Home (hero, trust points, what-I-handle tiles, why-families-trust-me + real "Our Story" with your dad's real photo, where-I-serve with real county/town lists, what-to-expect, quick-quote form, contact), plus a Blog index page with 20 published posts (see below).
+**The site itself** is built and content-complete: Home (hero, trust points, what-I-handle tiles, why-families-trust-me + real "Our Story" with your dad's real photo, where-I-serve with real county/town lists, what-to-expect, quick-quote form, contact), plus a Blog index page with 23 published posts (see below).
 
 **Hosting is fully live on the real domain — cutover is DONE, not just planned:**
 - GitHub repo: `https://github.com/aaronsguttersllc-dot/wholehearted-animal-removal.git`
@@ -38,7 +38,7 @@ Last updated: 2026-09-06. This file exists so work can pick back up exactly wher
 - A rendering plant will not accept a euthanized animal — written up in the first published blog post (see below)
 - **Important regulatory distinction, confirmed 2026-09-01, don't mix these up in future content:** WAC 16-25-025 (5-acre minimum, 300 ft setbacks, 1,000 lb cap) is a **livestock-only** rule — it applies to horses/cattle, not pets. Household pets (dogs, cats) are governed by the far more permissive WAC 246-203-121 instead (3 ft cover, 100 ft water setback, 72-hour rule, no acreage minimum). Any future pet-focused content should cite 246-203-121, not 16-25-025.
 
-## Blog posts — 20 published
+## Blog posts — 23 published
 
 1. **`src/blog/what-happens-after-a-horse-is-euthanized.html`** (2026-08-31) — targets "fallen animal" (1,600/mo). WAC 16-25-025 burial rules, plus the euthanasia/rendering-plant-refusal fact (Iowa State Extension, FDA pentobarbital residue history).
 2. **`src/blog/who-picks-up-dead-animals.html`** (2026-09-01) — targets "who picks up dead animals" (390/mo). Real decision-tree: county roads (WSDOT/public works), pets at home (vets don't do home pickup; King County/Lewis County disposal options), livestock (animal control's real scope is dangerous/loose animals, not carcass removal), and wildlife (WDFW).
@@ -65,4 +65,8 @@ Last updated: 2026-09-06. This file exists so work can pick back up exactly wher
 19. **`src/blog/dead-fish-in-pond.html`** (2026-09-09) — targets "dead fish in pond" / "how to dispose of dead fish" (90/140 per month, pulled fresh via Semrush). Genuinely different scenario centered on water quality, not just the animal. Important honest finding: WAC 246-203-121 explicitly excludes fish from its "dead animal" definition — no specific WA rule found for private pond fish disposal.
 20. **`src/blog/dead-bat-in-house-or-yard.html`** (2026-09-09) — targets "dead bat in house" / "dead bat in yard" (90/50 per month, pulled fresh via Semrush). Ties directly to post #15's finding that bats are WA's only confirmed rabies reservoir. Real, important CDC/WA DOH guidance: a bat found in a room with a sleeping person may warrant rabies evaluation even without a visible bite. Confirmed the real 3-10% bat testing-positivity figure directly against WA DOH.
 
-All 20 cross-link to each other where relevant, added to `blog.html` and `sitemap.xml`, and marked Published in `keyword-list.md`.
+21. **`src/blog/how-deep-to-bury-a-pet.html`** (2026-09-10) — targets "how deep to bury a pet" (1,000/mo, KD15, pulled fresh via Semrush now that the banked pool is exhausted for this site too). Deepens the three-foot mention already in post #4 rather than repeating it. Real, sourced finding: USFWS has documented actual bald eagle deaths from secondary pentobarbital poisoning after scavenging inadequately buried euthanized pets — the real reason the depth rule exists.
+22. **`src/blog/horse-mortality-insurance.html`** (2026-09-10) — targets "horse mortality insurance" (590/mo, KD12, pulled fresh via Semrush). Genuine, documented conflict: most mortality policies require insurer authorization before disposal and nearly all require a necropsy — both pulling against WA's 72-hour disposal window. Ties into posts #9 and #14; reciprocal links added both ways.
+23. **`src/blog/pet-memorial-ideas.html`** (2026-09-10) — targets "pet memorial ideas" (1,600/mo, KD31, pulled fresh via Semrush; kept despite higher difficulty as deliberate compassionate/trust-building content). Real, sourced options only (Spirit Pieces, Ever Loved, Chambers Creek Pet Memorial Park, Tufts/Cornell pet loss hotlines); flagged Seattle-Tacoma Pet Cemetery with an honest caution rather than a clean recommendation, based on real 2024-2025 Seattle Times reporting on its disrepair.
+
+All 23 cross-link to each other where relevant, added to `blog.html` and `sitemap.xml`, and marked Published in `keyword-list.md`. Posts #21-23 also added to `dead-animal-removal-guide.html`'s category lists.
