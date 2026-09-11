@@ -4,7 +4,7 @@ Last updated: 2026-09-11. This file exists so work can pick back up exactly wher
 
 ## Where things stand right now
 
-**The site itself** is built and content-complete: Home (hero, trust points, what-I-handle tiles, why-families-trust-me + real "Our Story" with your dad's real photo, where-I-serve with real county/town lists, what-to-expect, quick-quote form, contact), plus a Blog index page with 29 published posts (see below).
+**The site itself** is built and content-complete: Home (hero, trust points, what-I-handle tiles, why-families-trust-me + real "Our Story" with your dad's real photo, where-I-serve with real county/town lists, what-to-expect, quick-quote form, contact), plus a Blog index page with 32 published posts (see below).
 
 **Hosting is fully live on the real domain — cutover is DONE, not just planned:**
 - GitHub repo: `https://github.com/aaronsguttersllc-dot/wholehearted-animal-removal.git`
@@ -38,7 +38,7 @@ Last updated: 2026-09-11. This file exists so work can pick back up exactly wher
 - A rendering plant will not accept a euthanized animal — written up in the first published blog post (see below)
 - **Important regulatory distinction, confirmed 2026-09-01, don't mix these up in future content:** WAC 16-25-025 (5-acre minimum, 300 ft setbacks, 1,000 lb cap) is a **livestock-only** rule — it applies to horses/cattle, not pets. Household pets (dogs, cats) are governed by the far more permissive WAC 246-203-121 instead (3 ft cover, 100 ft water setback, 72-hour rule, no acreage minimum). Any future pet-focused content should cite 246-203-121, not 16-25-025.
 
-## Blog posts — 29 published
+## Blog posts — 32 published
 
 1. **`src/blog/what-happens-after-a-horse-is-euthanized.html`** (2026-08-31) — targets "fallen animal" (1,600/mo). WAC 16-25-025 burial rules, plus the euthanasia/rendering-plant-refusal fact (Iowa State Extension, FDA pentobarbital residue history).
 2. **`src/blog/who-picks-up-dead-animals.html`** (2026-09-01) — targets "who picks up dead animals" (390/mo). Real decision-tree: county roads (WSDOT/public works), pets at home (vets don't do home pickup; King County/Lewis County disposal options), livestock (animal control's real scope is dangerous/loose animals, not carcass removal), and wildlife (WDFW).
@@ -77,4 +77,8 @@ Last updated: 2026-09-11. This file exists so work can pick back up exactly wher
 28. **`src/blog/dead-backyard-chicken.html`** (2026-09-11) — targets "how to dispose of a dead chicken" (140/mo, KD6, pulled fresh via Semrush). Deepens the poultry mention already in post #7 (WAC 16-25-020 legally defines poultry as livestock) with the practical backyard-flock angle: a real small-carcass exception (under 200 lbs) waives the 5-acre minimum, and composting is an explicitly approved method. Includes real, dated WA avian flu detection info (spring 2026, Skagit County) without overstating current risk.
 29. **`src/blog/dead-hawk-or-owl.html`** (2026-09-11) — targets "dead owl" / "dead hawk" (390/390 per month, KD7/17, pulled fresh via Semrush). Deliberately distinct angle from post #12 (dead-bird-in-yard): raptors were only added to Migratory Bird Treaty Act protection via a 1972 amendment, and secondary anticoagulant rodenticide poisoning is a real, well-documented raptor mortality cause, confirmed regionally by a WA-specific Urban Raptor Conservancy/PAWS study.
 
-All 29 cross-link to each other where relevant, added to `blog.html` and `sitemap.xml`, and marked Published in `keyword-list.md`. Posts #21-29 also added to `dead-animal-removal-guide.html`'s category lists.
+30. **`src/blog/dead-duck.html`** (2026-09-11) — targets "dead duck" (1,300/mo, KD26, pulled fresh via Semrush). Real USGS-documented avian botulism cycle — a single leftover carcass can prolong a wetland outbreak. Real, sourced distinction from post #28's bird-flu angle: wild waterfowl are natural viral reservoirs per CDC, unlike backyard poultry.
+31. **`src/blog/dead-frogs.html`** (2026-09-11) — not keyword-scored; a deliberate genuine environmental-signal explainer. Real WA-specific chytrid fungus prevalence data (USGS) and a distinct ranavirus mechanism (WA Invasive Species Council). Honestly flagged as a genuine legal gray area whether WAC 246-203-121 covers amphibians at all.
+32. **`src/blog/dead-eagle.html`** (2026-09-11) — targets "dead eagle" (1,300/mo, KD25, pulled fresh via Semrush). Deepens the BGEPA mention in post #29 with the eagle-specific federal law — stricter than the general MBTA, real penalties up to $100,000/1 year for a first offense per USFWS. Real regional lead-poisoning data from an 18-year WSU raptor rehab study.
+
+All 32 cross-link to each other where relevant, added to `blog.html` and `sitemap.xml`, and marked Published in `keyword-list.md`. Posts #21-32 also added to `dead-animal-removal-guide.html`'s category lists.
