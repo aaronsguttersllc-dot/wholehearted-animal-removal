@@ -4,7 +4,7 @@ Last updated: 2026-09-11. This file exists so work can pick back up exactly wher
 
 ## Where things stand right now
 
-**The site itself** is built and content-complete: Home (hero, trust points, what-I-handle tiles, why-families-trust-me + real "Our Story" with your dad's real photo, where-I-serve with real county/town lists, what-to-expect, quick-quote form, contact), plus a Blog index page with 32 published posts (see below).
+**The site itself** is built and content-complete: Home (hero, trust points, what-I-handle tiles, why-families-trust-me + real "Our Story" with your dad's real photo, where-I-serve with real county/town lists, what-to-expect, quick-quote form, contact), plus a Blog index page with 35 published posts (see below).
 
 **Hosting is fully live on the real domain — cutover is DONE, not just planned:**
 - GitHub repo: `https://github.com/aaronsguttersllc-dot/wholehearted-animal-removal.git`
@@ -38,7 +38,7 @@ Last updated: 2026-09-11. This file exists so work can pick back up exactly wher
 - A rendering plant will not accept a euthanized animal — written up in the first published blog post (see below)
 - **Important regulatory distinction, confirmed 2026-09-01, don't mix these up in future content:** WAC 16-25-025 (5-acre minimum, 300 ft setbacks, 1,000 lb cap) is a **livestock-only** rule — it applies to horses/cattle, not pets. Household pets (dogs, cats) are governed by the far more permissive WAC 246-203-121 instead (3 ft cover, 100 ft water setback, 72-hour rule, no acreage minimum). Any future pet-focused content should cite 246-203-121, not 16-25-025.
 
-## Blog posts — 32 published
+## Blog posts — 35 published
 
 1. **`src/blog/what-happens-after-a-horse-is-euthanized.html`** (2026-08-31) — targets "fallen animal" (1,600/mo). WAC 16-25-025 burial rules, plus the euthanasia/rendering-plant-refusal fact (Iowa State Extension, FDA pentobarbital residue history).
 2. **`src/blog/who-picks-up-dead-animals.html`** (2026-09-01) — targets "who picks up dead animals" (390/mo). Real decision-tree: county roads (WSDOT/public works), pets at home (vets don't do home pickup; King County/Lewis County disposal options), livestock (animal control's real scope is dangerous/loose animals, not carcass removal), and wildlife (WDFW).
@@ -81,4 +81,8 @@ Last updated: 2026-09-11. This file exists so work can pick back up exactly wher
 31. **`src/blog/dead-frogs.html`** (2026-09-11) — not keyword-scored; a deliberate genuine environmental-signal explainer. Real WA-specific chytrid fungus prevalence data (USGS) and a distinct ranavirus mechanism (WA Invasive Species Council). Honestly flagged as a genuine legal gray area whether WAC 246-203-121 covers amphibians at all.
 32. **`src/blog/dead-eagle.html`** (2026-09-11) — targets "dead eagle" (1,300/mo, KD25, pulled fresh via Semrush). Deepens the BGEPA mention in post #29 with the eagle-specific federal law — stricter than the general MBTA, real penalties up to $100,000/1 year for a first offense per USFWS. Real regional lead-poisoning data from an 18-year WSU raptor rehab study.
 
-All 32 cross-link to each other where relevant, added to `blog.html` and `sitemap.xml`, and marked Published in `keyword-list.md`. Posts #21-32 also added to `dead-animal-removal-guide.html`'s category lists.
+33. **`src/blog/dead-bear.html`** (2026-09-11) — targets "dead bear" (1,600/mo, KD16, pulled fresh via Semrush). Best score of the round. Real, documented black bear presence in Pierce/Thurston County including GMUs bordering Mount Rainier National Park, contrasted with confirmed grizzly absence. Real WDFW dangerous-wildlife tracking distinction (public incident dashboard as of Sept. 2025) and a real TIP poaching-reward program.
+34. **`src/blog/dead-seal.html`** (2026-09-11) — targets "dead seal" / "beached seal" (390/480 per month, KD26/35, pulled fresh via Semrush). Lower score, kept deliberately for genuine legal distinctiveness — the Marine Mammal Protection Act is a completely separate federal law from everything else on this site. Real, verified NOAA stranding hotline and Thurston/Mason-specific responder (Cascadia Research Collective). Real, current event: 2023 H5N1 spillover into Puget Sound harbor seals.
+35. **`src/blog/dead-turtle.html`** (2026-09-11) — targets "dead turtle" (1,300/mo, KD27, pulled fresh via Semrush). Real distinction: most turtles found are illegally released red-eared sliders, while the Western pond turtle is a real state-endangered species with an actual recovery population in a managed Pierce County wetland since 1996. Honestly flagged the "dead vs. brumating" section as weakly sourced.
+
+All 35 cross-link to each other where relevant, added to `blog.html` and `sitemap.xml`, and marked Published in `keyword-list.md`. Posts #21-35 also added to `dead-animal-removal-guide.html`'s category lists.
