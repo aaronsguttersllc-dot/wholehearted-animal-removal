@@ -1,10 +1,10 @@
 # Workflow / Handoff — Wholehearted Animal Removal
 
-Last updated: 2026-09-10. This file exists so work can pick back up exactly where it left off if a session ends unexpectedly (power loss, etc.) — read this first before doing anything else on this project.
+Last updated: 2026-09-11. This file exists so work can pick back up exactly where it left off if a session ends unexpectedly (power loss, etc.) — read this first before doing anything else on this project.
 
 ## Where things stand right now
 
-**The site itself** is built and content-complete: Home (hero, trust points, what-I-handle tiles, why-families-trust-me + real "Our Story" with your dad's real photo, where-I-serve with real county/town lists, what-to-expect, quick-quote form, contact), plus a Blog index page with 23 published posts (see below).
+**The site itself** is built and content-complete: Home (hero, trust points, what-I-handle tiles, why-families-trust-me + real "Our Story" with your dad's real photo, where-I-serve with real county/town lists, what-to-expect, quick-quote form, contact), plus a Blog index page with 26 published posts (see below).
 
 **Hosting is fully live on the real domain — cutover is DONE, not just planned:**
 - GitHub repo: `https://github.com/aaronsguttersllc-dot/wholehearted-animal-removal.git`
@@ -38,7 +38,7 @@ Last updated: 2026-09-10. This file exists so work can pick back up exactly wher
 - A rendering plant will not accept a euthanized animal — written up in the first published blog post (see below)
 - **Important regulatory distinction, confirmed 2026-09-01, don't mix these up in future content:** WAC 16-25-025 (5-acre minimum, 300 ft setbacks, 1,000 lb cap) is a **livestock-only** rule — it applies to horses/cattle, not pets. Household pets (dogs, cats) are governed by the far more permissive WAC 246-203-121 instead (3 ft cover, 100 ft water setback, 72-hour rule, no acreage minimum). Any future pet-focused content should cite 246-203-121, not 16-25-025.
 
-## Blog posts — 23 published
+## Blog posts — 26 published
 
 1. **`src/blog/what-happens-after-a-horse-is-euthanized.html`** (2026-08-31) — targets "fallen animal" (1,600/mo). WAC 16-25-025 burial rules, plus the euthanasia/rendering-plant-refusal fact (Iowa State Extension, FDA pentobarbital residue history).
 2. **`src/blog/who-picks-up-dead-animals.html`** (2026-09-01) — targets "who picks up dead animals" (390/mo). Real decision-tree: county roads (WSDOT/public works), pets at home (vets don't do home pickup; King County/Lewis County disposal options), livestock (animal control's real scope is dangerous/loose animals, not carcass removal), and wildlife (WDFW).
@@ -69,4 +69,8 @@ Last updated: 2026-09-10. This file exists so work can pick back up exactly wher
 22. **`src/blog/horse-mortality-insurance.html`** (2026-09-10) — targets "horse mortality insurance" (590/mo, KD12, pulled fresh via Semrush). Genuine, documented conflict: most mortality policies require insurer authorization before disposal and nearly all require a necropsy — both pulling against WA's 72-hour disposal window. Ties into posts #9 and #14; reciprocal links added both ways.
 23. **`src/blog/pet-memorial-ideas.html`** (2026-09-10) — targets "pet memorial ideas" (1,600/mo, KD31, pulled fresh via Semrush; kept despite higher difficulty as deliberate compassionate/trust-building content). Real, sourced options only (Spirit Pieces, Ever Loved, Chambers Creek Pet Memorial Park, Tufts/Cornell pet loss hotlines); flagged Seattle-Tacoma Pet Cemetery with an honest caution rather than a clean recommendation, based on real 2024-2025 Seattle Times reporting on its disrepair.
 
-All 23 cross-link to each other where relevant, added to `blog.html` and `sitemap.xml`, and marked Published in `keyword-list.md`. Posts #21-23 also added to `dead-animal-removal-guide.html`'s category lists.
+24. **`src/blog/dead-possum.html`** (2026-09-11) — targets "dead possum" (1,900/mo, KD29, pulled fresh via Semrush; banked pool now fully exhausted for this site). Best score of the round. Honestly caveated two popular claims: the low-body-temperature/rabies-resistance link isn't confirmed by a controlled study (softened accordingly), and the "thousands of ticks per season" figure is directly disputed by a 2021 field study finding zero ticks in wild opossum stomachs (presented as contested, not settled).
+25. **`src/blog/dead-raccoon.html`** (2026-09-11) — targets "dead raccoon" (880/mo, KD20, pulled fresh via Semrush). Real regional rabies distinction (raccoon-variant rabies never documented in WA per DOH) paired with a real, honest alternative explanation for daylight raccoon deaths: canine distemper virus, which WDFW confirms is a significant contributor to raccoon mortality in this state. Deepens the roundworm fact already in post #16 with real CDC latrine-cleanup precautions.
+26. **`src/blog/dead-snake-in-yard.html`** (2026-09-11) — targets "dead snake in yard" (880/mo, KD23, pulled fresh via Semrush). Real, reassuring regional fact: WDFW confirms the western rattlesnake, Washington's only venomous snake, has no documented range anywhere near Pierce/Thurston County. Includes a real, peer-reviewed-confirmed fact about reflexive bites in recently dead venomous snakes, not internet folklore.
+
+All 26 cross-link to each other where relevant, added to `blog.html` and `sitemap.xml`, and marked Published in `keyword-list.md`. Posts #21-26 also added to `dead-animal-removal-guide.html`'s category lists.
