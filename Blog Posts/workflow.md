@@ -12,10 +12,17 @@ Last updated: 2026-09-11. This file exists so work can pick back up exactly wher
 - Email (Google Workspace MX + 3 TXT records) confirmed untouched and working throughout the cutover
 - The Quick Quote form is wired to Netlify Forms and confirmed working end-to-end, including email notifications
 - `robots.txt`, `sitemap.xml`, and `llms.txt` all added post-cutover (they didn't exist at first and were 404ing) — confirmed live
-- A full Semrush Site Audit came back clean after these fixes — 0 errors, 0 warnings, only a couple of low-priority notices (unminified CSS/JS, blog index word count — both expected/low priority)
+- A full Semrush Site Audit came back clean after these fixes — 0 errors, 0 warnings. The unminified CSS/JS notice flagged here was fixed for real on 2026-09-14 (see standing template rules below) rather than left as low-priority.
 - Google Search Console: sitemap submitted, Request Indexing done on the homepage and sitemap.xml
 
 **Squarespace subscription:** still Aaron's call on when to cancel — no urgency, just confirm everything's stable first (it is, as of this update).
+
+## Standing template rules — every new blog post must follow these (fixed 2026-09-14)
+
+A Semrush audit (2026-09-14) flagged two real, recurring issues hitting every single page on the site. Both are now fixed site-wide, but **new posts must follow these rules or the warnings will come back**:
+
+1. **Always link the minified CSS/JS, never the source files.** The head must use `<link rel="stylesheet" href="../styles.min.css" />` and the closing body must use `<script src="../script.min.js"></script>` — never `styles.css` / `script.js` directly. `src/styles.css` and `src/script.js` are the real source files to edit if the design or form logic ever needs to change; `src/styles.min.css` and `src/script.min.js` are the minified copies actually referenced by every page. **If you ever edit styles.css or script.js, you must re-minify and overwrite the .min versions before publishing** — copy the whitespace-collapsed CSS (safe: strip comments, collapse all whitespace to single spaces, remove spaces around `{ } : ; ,`) or for JS use a conservative line-trim only (join trimmed lines with a single space — do NOT collapse whitespace inside string/template-literal content, since a blanket regex will mangle the user-facing text in the quote-form success/error messages). Always spot-check the output for mangled UTF-8 characters (the ✓ in `.check-list` is a known casualty of careless PowerShell re-encoding — write with `System.Text.UTF8Encoding($false)`, not `Set-Content -Encoding utf8`, which adds a BOM and can still mangle multi-byte characters read back incorrectly).
+2. **Keep `<title>` tags under ~65 characters, suffix included.** The " | Wholehearted Animal Removal" suffix alone is 31 characters, so the page-specific part needs to stay under ~34 characters to have real margin. Semrush's cutoff sits somewhere between 68 (safe) and 77 (flagged) chars total — 16 older posts got flagged and were shortened on 2026-09-14 (e.g. "Found a Dead Bear? What Washington Law Requires" → "Found a Dead Bear? What to Know"). The `<h1>` can stay long and descriptive — only the `<title>` tag is length-constrained. When drafting a new post's title, write it short from the start rather than fixing it after an audit catches it.
 
 ## Other open items, not urgent
 
