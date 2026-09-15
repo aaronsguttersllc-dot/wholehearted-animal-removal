@@ -1,10 +1,10 @@
 # Workflow / Handoff — Wholehearted Animal Removal
 
-Last updated: 2026-09-11. This file exists so work can pick back up exactly where it left off if a session ends unexpectedly (power loss, etc.) — read this first before doing anything else on this project.
+Last updated: 2026-09-15. This file exists so work can pick back up exactly where it left off if a session ends unexpectedly (power loss, etc.) — read this first before doing anything else on this project.
 
 ## Where things stand right now
 
-**The site itself** is built and content-complete: Home (hero, trust points, what-I-handle tiles, why-families-trust-me + real "Our Story" with your dad's real photo, where-I-serve with real county/town lists, what-to-expect, quick-quote form, contact), plus a Blog index page with 35 published posts (see below).
+**The site itself** is built and content-complete: Home (hero, trust points, what-I-handle tiles, why-families-trust-me + real "Our Story" with your dad's real photo, where-I-serve with real county/town lists, what-to-expect, quick-quote form, contact), plus a Blog index page with 37 published posts (see below).
 
 **Hosting is fully live on the real domain — cutover is DONE, not just planned:**
 - GitHub repo: `https://github.com/aaronsguttersllc-dot/wholehearted-animal-removal.git`
@@ -45,7 +45,7 @@ A Semrush audit (2026-09-14) flagged two real, recurring issues hitting every si
 - A rendering plant will not accept a euthanized animal — written up in the first published blog post (see below)
 - **Important regulatory distinction, confirmed 2026-09-01, don't mix these up in future content:** WAC 16-25-025 (5-acre minimum, 300 ft setbacks, 1,000 lb cap) is a **livestock-only** rule — it applies to horses/cattle, not pets. Household pets (dogs, cats) are governed by the far more permissive WAC 246-203-121 instead (3 ft cover, 100 ft water setback, 72-hour rule, no acreage minimum). Any future pet-focused content should cite 246-203-121, not 16-25-025.
 
-## Blog posts — 35 published
+## Blog posts — 37 published
 
 1. **`src/blog/what-happens-after-a-horse-is-euthanized.html`** (2026-08-31) — targets "fallen animal" (1,600/mo). WAC 16-25-025 burial rules, plus the euthanasia/rendering-plant-refusal fact (Iowa State Extension, FDA pentobarbital residue history).
 2. **`src/blog/who-picks-up-dead-animals.html`** (2026-09-01) — targets "who picks up dead animals" (390/mo). Real decision-tree: county roads (WSDOT/public works), pets at home (vets don't do home pickup; King County/Lewis County disposal options), livestock (animal control's real scope is dangerous/loose animals, not carcass removal), and wildlife (WDFW).
@@ -92,4 +92,7 @@ A Semrush audit (2026-09-14) flagged two real, recurring issues hitting every si
 34. **`src/blog/dead-seal.html`** (2026-09-11) — targets "dead seal" / "beached seal" (390/480 per month, KD26/35, pulled fresh via Semrush). Lower score, kept deliberately for genuine legal distinctiveness — the Marine Mammal Protection Act is a completely separate federal law from everything else on this site. Real, verified NOAA stranding hotline and Thurston/Mason-specific responder (Cascadia Research Collective). Real, current event: 2023 H5N1 spillover into Puget Sound harbor seals.
 35. **`src/blog/dead-turtle.html`** (2026-09-11) — targets "dead turtle" (1,300/mo, KD27, pulled fresh via Semrush). Real distinction: most turtles found are illegally released red-eared sliders, while the Western pond turtle is a real state-endangered species with an actual recovery population in a managed Pierce County wetland since 1996. Honestly flagged the "dead vs. brumating" section as weakly sourced.
 
-All 35 cross-link to each other where relevant, added to `blog.html` and `sitemap.xml`, and marked Published in `keyword-list.md`. Posts #21-35 also added to `dead-animal-removal-guide.html`'s category lists.
+36. **`src/blog/horse-burial-service.html`** (2026-09-15) — targets "equine burial service" / "horse burial service" (110/90 per month, near-zero KD, from a fresh 2026-09-15 re-export of the "Dead horse removal" seed). A hire-intent post distinct from `cost-to-bury-a-horse.html`'s DIY-cost framing — makes the case for hiring the burial out (equipment access, WAC 16-25-025 compliance handled for you, physical labor done for you instead of yourself), reusing the already-published $700-$1,100/day equipment-rental figures rather than inventing new pricing.
+37. **`src/blog/how-to-get-rid-of-a-dead-horse.html`** (2026-09-15) — targets "how to get rid of a dead horse" and 3 close variants (70/mo each, near-zero KD, same re-export). A synthesis/decision-tree post, not deep new research — lays out all 4 real options (DIY burial, hiring the burial out, cremation, professional removal) honestly and links out to the detailed post covering each, similar in spirit to `who-picks-up-dead-animals.html` and `dead-animal-removal-cost.html`.
+
+All 37 cross-link to each other where relevant, added to `blog.html` and `sitemap.xml`, and marked Published in `keyword-list.md`.
