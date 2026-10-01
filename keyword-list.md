@@ -89,6 +89,22 @@ Of the 69 keywords in the new export, here's where all of them landed:
 - **~39 rejected as noise** — the rendering-plant industrial cluster, re-confirmed above.
 - **2 covered/fold-in, not standalone** — burial depth and carcass-disposal phrasing, noted above.
 
+## 2026-09-30 re-export ("dead livestock removal" seed): full accounting
+
+Aaron supplied `dead-livestock-removal_all-keywords_us_2026-09-30.csv` — 10,003 rows, by far the largest export for this site. **Honest verdict: this seed is a poor fit and yielded almost nothing usable.** Where all 10,003 landed:
+
+- **~2,207 farming/agronomy** (crops, forage, grazing, manure, tractors, hay) — the seed pulled commercial-agriculture content, not homeowner/livestock-owner disposal intent.
+- **~579 hunting/licensing** (deer seasons, taxidermy licenses, game wardens, tags).
+- **~187 other-state geo** (heavily Texas, plus OK/KS/IA/NE/MO) — wrong market entirely.
+- **60 rendering-plant cluster** — rejected for the third time now; see the Deprioritized section, not re-litigated.
+- **~76 tax/jobs/waste-recycling** noise.
+- Of the remaining ~6,894, only **15 keywords clear volume ≥70 and KD ≤40**, and nearly all of those are either already covered or junk:
+  - Already covered: `what is an animal autopsy called` (140) → `what-is-a-necropsy.html`; `how to dispose of a deer carcass` / `how to dispose of deer carcass` (110 each) → `dead-deer-removal.html`; `what's animal control` (110) → `who-picks-up-dead-animals.html`; `is it illegal to hit a deer and leave` (70) → roadkill salvage in `who-picks-up-dead-animals.html`.
+  - Garbled or unrelated: `am rural` (390), `why is it more efficient to rear cows indoors` (170), `which of the following addresses transporting animals across state lines` (90, a quiz question), `what is chicken carcasses` (70), `what is mine reclamation` (70).
+  - **Genuinely new but marginal (4 total):** `what does chronic wasting disease look like in deer` (110/KD34 — CWD gets only two passing mentions in `dead-deer-removal.html`, so a visual-symptoms angle is a real deepening opportunity); `is it illegal to dump a deer carcass` (70/KD12 — very low difficulty, fits this site's strength in real WAC/RCW legal sourcing); `what is tuberculosis in cattle` / `what is tb in cows` (90/70 — ties to RCW 16.36.102's presumption that unexplained livestock death is disease until proven otherwise); `what does ehd do to deer` (70/KD39 — EHD appears nowhere on the site and is a real cause of local deer die-offs).
+
+**Recommended next seeds instead of broad disposal terms**, since those are now mined out: the site's best performers have been animal-specific scenario posts (`dead possum`, `dead raccoon`, `dead bear`, `dead coyote`), so seed on individual species not yet covered, and separately on hire-intent service+city combinations for the real service-area towns — neither of which a "dead livestock removal" seed surfaces.
+
 ## Still needed before finalizing priority order
 
 1. Confirm the real name/details for the cremation referral before it's used in any published content — "Pet Land" needs to be verified (exact business name, location) since it'll be a real, named referral on the site.
