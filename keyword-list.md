@@ -89,6 +89,21 @@ Of the 69 keywords in the new export, here's where all of them landed:
 - **~39 rejected as noise** — the rendering-plant industrial cluster, re-confirmed above.
 - **2 covered/fold-in, not standalone** — burial depth and carcass-disposal phrasing, noted above.
 
+## 2026-10-02: re-ran the 2026-09-30 export with KD wide open — three real clusters
+
+Aaron asked for the KD ceiling removed entirely, on the correct reasoning (already noted at the top of this file) that Semrush KD reflects national competition while real local competition here is two businesses. **This was the right call and it overturned the "almost nothing usable" verdict below.** KD was never the binding constraint — max volume in the whole file is 170 and max Relevance across all 10,003 rows is 56 — but opening it revealed clusters that a KD ≤40 cut had split apart:
+
+**1. Deer carcass disposal — ~290/mo, KD 12-16. The best opportunity in this export, and it was wrongly dismissed as "covered" twice.**
+`how to dispose of a deer carcass` (110/KD14), `how to dispose of deer carcass` (110/KD16), `is it illegal to dump a deer carcass` (70/KD12). Verified 2026-10-02: `dead-deer-removal.html` does **not** target this — its title, H1, and meta all target "dead deer removal" plus the WDFW notification rule, it has no disposal H2 at all, and nothing on the site covers disposal method or legality for deer specifically. Lowest difficulty in the export, decent combined volume, and it complements the existing deer post rather than cannibalizing it.
+
+**2. Deer disease / CWD cluster — ~500/mo, KD 0-58.**
+`what's cwd in deer` (110/KD50), `what does chronic wasting disease look like in deer` (110/KD34), `what is cwd in a deer` (70/KD51), `what does ehd do to deer` (70/KD39), `what is chronic wasting disease in deer` (50/KD0), `what is deer cwd` (50/KD58), `what disease does deer get` (40/KD0). CWD appears exactly twice on the entire site (passing mentions in `dead-deer-removal.html`); EHD appears nowhere. Six phrasings of the same question is a strong signal for one well-structured post.
+
+**3. Cattle disease cluster — ~480/mo, KD 38-47.**
+`what is bovine tuberculosis` (110), `what is bovine tb` (90), `what is tuberculosis in cattle` (90), `what is tb in cows` (70), `what causes the mad cow disease` (70), `is mad cow disease a virus` (50). Nothing on the site covers it, and it connects directly to a law this site already cites — RCW 16.36.102's presumption that an unexplained livestock death is disease until proven otherwise. That's the honest "why the disposal rules are this strict" answer.
+
+**Honest framing on all three:** every one is `Intent: Informational` with Relevance 41-49, against 100/72/61 for this site's real hire-intent targets. These build topical authority and feed the existing livestock/deer pages — they will not generate bookings directly. Worth writing, but they are not a substitute for a seed that surfaces commercial intent.
+
 ## 2026-09-30 re-export ("dead livestock removal" seed): full accounting
 
 Aaron supplied `dead-livestock-removal_all-keywords_us_2026-09-30.csv` — 10,003 rows, by far the largest export for this site. **Honest verdict: this seed is a poor fit and yielded almost nothing usable.** Where all 10,003 landed:
